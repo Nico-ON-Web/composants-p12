@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+.btn{
+    display: inline-block;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+/* couleur de typo*/
+.text-black{
+    color: #000;
+}
+.text-white{
+    color: #fff;
+}
+
+/*background*/
+.bg-green{
+    background-color: #61FF7B;
+}
+/*changement de la couleur au survol*/
+.bg-green:hover{
+    background-color: #006711;
+    color: #fff;
+}
+
+a:hover{
+    scale: 3;
+}
+.bg-blue{
+    background-color: #1398A0;
+}
+
+/*arrondis*/
+.gellule{
+    border-radius: 32px;
+}
+.bizare{
+    border-radius: 0 32px 0 32px;
+}
+.radius8{
+    border-radius: 8px;
+}
+/*taille et graisse*/
+.bold{
+    font-weight: bold;
+}
+.size22{
+    font-size: 22px;
+}
+/*bordures*/
+.border-solid{
+    border: solid 2px black;
+}
+.border-dashed{
+    border: dashed 5px black;
+}
